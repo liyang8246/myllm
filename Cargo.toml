@@ -1,0 +1,22 @@
+[package]
+name = "myllm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.90"
+arg = "0.4.1"
+candle-core = "0.7.2"
+candle-examples = "0.7.2"
+candle-nn = "0.7.2"
+candle-transformers = "0.7.2"
+clap = "4.5.20"
+hf-hub = "0.3.2"
+salvo = "0.73.0"
+serde_json = "1.0.129"
+tokenizers = "0.19.1"
+tokio = { version = "1", features = ["macros"] }
+tracing-subscriber = "0.3.18"
+orca = { git = "https://github.com/Miuler/orca", package = "orca-core" }
+value = "0.1.1"
+qdrant = "0.0.0"
